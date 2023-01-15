@@ -9,7 +9,7 @@
 
 ## 🔨 Setup
 
-1. Clone the repo (or download the zip) for this exercise, which you can find [here]().
+1. Clone the repo (or download the zip) for this exercise, which you can find [here](https://github.com/JAC-CS-Programming-4-W23/E0.1-Survey).
 2. Start IntelliJ, go to `File -> Open...`, and select the cloned/downloaded folder.
 3. If at the top it says "Project JDK is not defined", click "Setup JDK" on the top right, and select the JDK version you have installed on your machine.
 
@@ -25,7 +25,7 @@ An **interface** in object-oriented programming is a set of variables and functi
 
 Here's an excellent example of interfaces by [Dave Leeds](https://www.hitthebits.com/p/about-me.html):
 
-[![Interface](./images/9-Interface.png)](https://www.hitthebits.com/2012/11/what-are-interfaces.html)
+[![Interface](./images/Interface.png)](https://www.hitthebits.com/2012/11/what-are-interfaces.html)
 
 The light switch provides an easy way for the caller to turn the lights on without the caller having to know anything about the fancy electrical stuff! This concept goes hand in hand with the OOP concept of [abstraction](https://www.digitalocean.com/community/tutorials/what-is-abstraction-in-oops).
 
