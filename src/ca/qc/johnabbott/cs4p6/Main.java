@@ -60,7 +60,8 @@ public class Main {
         survey.addQuestion(new LongAnswerQuestion("Q5.", "What motivates you to code?"));
         survey.addQuestion(new LongAnswerQuestion("Q6.", "What is your favourite text editor?"));
         survey.addQuestion(new LongAnswerQuestion("Q7.", "If you could choose to do anything for a day, what would it be?"));
-        survey.addQuestion(new QuestionQuestion("Q8.", "Ask me a question!"));
+        survey.addQuestion(new LongAnswerQuestion("Q8.", "Is there anything you'd like me to know in particular about you?"));
+        survey.addQuestion(new QuestionQuestion("Q9.", "Ask me a question!"));
 
         return survey;
     }
