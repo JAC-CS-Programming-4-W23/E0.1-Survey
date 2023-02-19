@@ -2,8 +2,6 @@
  * Copyright (c) 2022 Ian Clement. All rights reserved.
  */
 
-package ca.qc.johnabbott.cs4p6.survey;
-
 /**
  * Short-answer style questions expect a response containing a limited length of text.
  */

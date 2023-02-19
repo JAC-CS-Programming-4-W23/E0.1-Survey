@@ -2,8 +2,6 @@
  * Copyright (c) 2022 Ian Clement. All rights reserved.
  */
 
-package ca.qc.johnabbott.cs4p6;
-
 import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
