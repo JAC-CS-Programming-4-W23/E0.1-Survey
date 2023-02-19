@@ -2,8 +2,6 @@
  * Copyright (c) 2021 Ian Clement. All rights reserved.
  */
 
-package ca.qc.johnabbott.cs4p6.survey;
-
 /**
  * The structure of a survey question.
  */

@@ -2,8 +2,6 @@
  * Copyright (c) 2021 Ian Clement. All rights reserved.
  */
 
-package ca.qc.johnabbott.cs4p6.survey;
-
 import java.util.Date;
 
 /**

@@ -2,30 +2,28 @@
  * Copyright (c) 2021 Ian Clement. All rights reserved.
  */
 
-package ca.qc.johnabbott.cs4p6.survey;
-
 /**
- * Question "questions" expect a question as a response, so something ending in a '?'.
+ * Long-answer style questions expect a response containing any amount of text.
  */
-public class QuestionQuestion implements Questionable {
+public class LongAnswerQuestion implements Questionable {
 
     // Fields
 
-    private final String title;
-    private final String question;
-    private final boolean required;
+    private String title;
+    private String question;
+    private boolean required;
 
     // Constructors
 
-    public QuestionQuestion(String question) {
+    public LongAnswerQuestion(String question) {
         this("", question, false);
     }
 
-    public QuestionQuestion(String title, String question) {
+    public LongAnswerQuestion(String title, String question) {
         this(title, question, false);
     }
 
-    public QuestionQuestion(String title, String question, boolean required) {
+    public LongAnswerQuestion(String title, String question, boolean required) {
         this.title = title;
         this.question = question;
         this.required = required;
@@ -50,12 +48,13 @@ public class QuestionQuestion implements Questionable {
 
     @Override
     public boolean isValidResponse(String response) {
-        response = response.trim();
-        return response.endsWith("?");
+        return true;
     }
 
 //    @Override
 //    public String prompt() {
-//        return "Just give us a question ending with a '?'";
+//        return "Just write any text.";
 //    }
+
+
 }

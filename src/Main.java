@@ -2,10 +2,6 @@
  * Copyright (c) 2021 Ian Clement. All rights reserved.
  */
 
-package ca.qc.johnabbott.cs4p6;
-
-import ca.qc.johnabbott.cs4p6.survey.*;
-
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
